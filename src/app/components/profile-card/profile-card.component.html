@@ -1,0 +1,36 @@
+<div class="relative min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-gray-500 bg-no-repeat bg-cover relative items-center "
+	style="background-image: url(https://images.unsplash.com/photo-1523873106643-1aa7ae9e8103?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); ">
+  <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+<div class="absolute flex  flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96" >
+  <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-fit">
+    <img [src]="profile.image" alt="profile-picture" />
+  </div>
+  <div class="p-6 text-center">
+    <h4 class="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+   {{profile.name}}
+    </h4>
+    <p
+      class="block text-pink-600 font-sans text-base antialiased font-medium leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400">
+      {{ profile.email}}
+    </p>
+    <button routerLink="edit" class="w-full p-2 border-slate-600 bg-gray-600 text-white hover:bg-black hover:text-white rounded-lg">edit</button>
+  </div>
+  <!-- <div class="flex justify-center p-6 pt-2 gap-7">
+    <a href="#facebook"
+      class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-blue-400">
+      <i class="fab fa-facebook" aria-hidden="true"></i>
+    </a>
+    <a href="#twitter"
+      class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-light-blue-600 to-light-blue-400">
+      <i
+        class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    <a href="#instagram"
+      class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 to-purple-400"><i
+        class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+  </div> -->
+</div>
+</div>
